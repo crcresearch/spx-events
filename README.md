@@ -11,6 +11,10 @@ Support material for SpectrumX workshops, tutorials, and other events.
 
 ## Data System Example
 
+This example demonstrates how to upload data to the SpectrumX Data System (SDS) and interact with it using the `spectrumx` Python package.
+
+Continue in [./demos/data_system/README.md](./demos/data_system/README.md).
+
 ## Spectrogram Example
 
 The spectrogram example demonstrates how to download DigitalRF data from the SpectrumX Data System (SDS) and create spectrograms from the data.
