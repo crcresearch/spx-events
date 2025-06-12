@@ -1,9 +1,7 @@
 [project]
-name = "data-system"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "spectrumx>=0.1.10",
-]
+    dependencies    = ["ipykernel>=6.29.5", "ipython>=9.3.0", "spectrumx>=0.1.10"]
+    description     = "SDS example"
+    name            = "data-system"
+    readme          = "README.md"
+    requires-python = ">=3.13"
+    version         = "0.1.0"

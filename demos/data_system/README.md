@@ -1,13 +1,21 @@
 # Data System Example
 
 + [Data System Example](#data-system-example)
-    + [Install packages](#install-packages)
-        + [Using `uv` (recommended)](#using-uv-recommended)
-        + [Using `pip`](#using-pip)
+    + [Setup](#setup)
+        + [Install packages](#install-packages)
+            + [Using `uv` (recommended)](#using-uv-recommended)
+            + [Using `pip`](#using-pip)
+        + [Select the Python interpreter](#select-the-python-interpreter)
 
-## Install packages
+## Setup
 
-### Using `uv` (recommended)
+Open this repository in your editor / IDE.
+
+### Install packages
+
+Choose one of:
+
+#### Using `uv` (recommended)
 
 ```bash
 # install uv
@@ -16,11 +24,18 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 ```
 
-### Using `pip`
+#### Using `pip`
 
 ```bash
-# OR
 python -m venv .venv
 source .venv/bin/activate
 pip install .
 ```
+
+If you're using another package manager, check the `pyproject.toml` file for the dependencies.
+
+### Select the Python interpreter
+
+In VS Code, for example, the interpreter can be selected from the command palette (`Ctrl+Shift+P`) and typing `Python: Select Interpreter`. Then choose the one in this directory. Example:
+
+![Select Interpreter](./img/interpreter.png)
