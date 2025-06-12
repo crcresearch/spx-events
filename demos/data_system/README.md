@@ -39,3 +39,9 @@ If you're using another package manager, check the `pyproject.toml` file for the
 In VS Code, for example, the interpreter can be selected from the command palette (`Ctrl+Shift+P`) and typing `Python: Select Interpreter`. Then choose the one in this directory. Example:
 
 ![Select Interpreter](./img/interpreter.png)
+
+Then open the [walkthrough notebook](./walkthrough.ipynb) and select the right kernel if not already selected (e.g. if you see import errors).
+
+![Select Kernel](./img/kernel.png)
+
+> Let's continue from the walkthrough notebook: [walkthrough.ipynb](./walkthrough.ipynb).
