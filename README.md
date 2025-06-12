@@ -11,7 +11,7 @@ The spectrogram example demonstrates how to download DigitalRF data from the Spe
 - Python 3.x
 - Required Python packages:
     - spectrumx
-    - digital_rf
+    - digital-rf
     - h5py
     - numpy
     - matplotlib
@@ -24,7 +24,9 @@ The spectrogram example demonstrates how to download DigitalRF data from the Spe
 1. Install the required packages:
 
     ```bash
-    pip install spectrumx digital_rf h5py numpy matplotlib scipy
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install spectrumx digital-rf h5py numpy matplotlib scipy
     ```
 
 2. Get your SDS secret token from the [SDS website](https://sds.crc.nd.edu/users/generate-api-key/).
